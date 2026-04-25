@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.RequestBody
 import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
-import ru.school57.todolist.RegisterUserRequest
-import ru.school57.todolist.dto.ServiceResponse
+import ru.school57.todolist.dto.request.RegisterUserRequest
+import ru.school57.todolist.dto.response.ServiceResponse
 import ru.school57.todolist.service.AuthService
 
 @RestController

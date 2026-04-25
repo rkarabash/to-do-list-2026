@@ -1,7 +1,7 @@
 package ru.school57.todolist.service
 
 import org.springframework.stereotype.Component
-import ru.school57.todolist.RegisterUserRequest
+import ru.school57.todolist.dto.request.RegisterUserRequest
 import ru.school57.todolist.entity.User
 import ru.school57.todolist.exception.BadRequestException
 import ru.school57.todolist.repository.UserRepository

@@ -71,7 +71,7 @@ erDiagram
         date updated_at
         int priority
     }
-    
+
     TOKEN {
         int id PK
         string value
@@ -113,9 +113,9 @@ CREATE TABLE tokens
 );
 ```
 
-# Команда для поднятия БД
+# Команда для поднятия контейнеров
 ```shell
-docker run --name my_postgres -p 5432:5432 -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=my_db -d postgres:16
+docker compose up -d
 ```
 
 # Команда для актуализации мастер-ветки

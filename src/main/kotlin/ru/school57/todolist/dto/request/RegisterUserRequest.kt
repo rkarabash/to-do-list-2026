@@ -1,4 +1,4 @@
-package ru.school57.todolist
+package ru.school57.todolist.dto.request
 
 data class RegisterUserRequest(
     val email: String,
