@@ -1,12 +1,12 @@
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: health, metrics, prometheus
-#  metrics:
-#    export:
-#      prometheus:
-#        enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, metrics, prometheus
+  metrics:
+    export:
+      prometheus:
+        enabled: true
 spring:
   output:
     ansi:
@@ -23,5 +23,5 @@ spring:
     hibernate:
       ddl-auto: update
 
-#logging:
-#  config: classpath:logback-colored.xml
+logging:
+  config: classpath:logback-colored.xml
